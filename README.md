@@ -1,0 +1,1 @@
+# YuGiOh-scrape-card-pool
