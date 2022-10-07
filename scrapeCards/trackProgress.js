@@ -1,17 +1,5 @@
 const puppeteer = require("puppeteer")
 
-// async function getTotalCardCount(browser) {
-// 	const tempTab = await browser.newPage()
-// 	await tempTab.goto("https://yugipedia.com/wiki/Category:TCG_cards")
-// 	await tempTab.waitForSelector("#mw-pages > p")
-// 	let textBlock = await tempTab.$eval("#mw-pages > p", (el) => el.innerText)
-// 	// remove all commas out of textBlock
-// 	textBlock = textBlock.replace(/,/g, "")
-// 	// create array of numbers in textBlock
-// 	let numbers = textBlock.match(/\d+/g)
-// 	await tempTab.close()
-// 	return numbers[1]
-// }
 async function getTotalCardCount(tab) {
 	await tab.waitForSelector("#mw-pages > p")
 	let textBlock = await tab.$eval("#mw-pages > p", (el) => el.innerText)

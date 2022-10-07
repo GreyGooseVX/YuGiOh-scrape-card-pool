@@ -69,8 +69,3 @@ async function getNextPageURL(tab) {
 module.exports = {
 	scrape,
 }
-
-// how to require toolbox.js, if it is not in the same directory as this file:
-// const toolbox = require('./toolbox.js')
-// Error: Cannot find module './toolbox.js'
-// const toolbox = require('../toolbox.js')

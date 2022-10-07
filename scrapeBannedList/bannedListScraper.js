@@ -57,7 +57,7 @@ async function readTableData(tab) {
 			let tableCells = tableRows[i].querySelectorAll('td')
 			for (let j = 0; j < tableCells.length; j++) {
 				if (tableCells[j].innerText == '') {
-					array.push('') //maybe change this to '0' or '-1'
+					array.push('') //'0' or '-1' could also be used here to display unreleased cards
 				} else {
 					array.push(tableCells[j].innerText)
 				}

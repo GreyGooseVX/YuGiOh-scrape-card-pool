@@ -1,3 +1,4 @@
+//workaround for being unable to pass a class to the browser
 function getEmptyCard() {
 	return {
 		password: "",
