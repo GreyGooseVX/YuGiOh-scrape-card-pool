@@ -5,6 +5,7 @@ full card db as of 22.08.2022, scraped from yugipedia.com
 [docs.google.com/spreadsheets](https://docs.google.com/spreadsheets/d/15f8dqC8letuw0fDdkL6oBOla0tfTf9nceS8LGPZqXU8/edit#gid=271022656)
 
 to use a custom card pool or play with an old banned list, check out my other repo:
+
 [YuGiOh-historic-and-custom-formats](https://github.com/WhiteG00se/YuGiOh-historic-and-custom-formats)
 
 In case you need a more updated card db, here's how I created the one in this repo.
